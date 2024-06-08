@@ -1,12 +1,12 @@
-import { AgeCalculator } from './img';
-import { CarWebsite } from './img';
-import { LuckyShrub } from './img';
+// import { AgeCalculator } from './img/AgeCalculator';
+// import { CarWebsite } from './img/CarWebsite';
+// import { LuckyShrub } from './img/LuckyShrub';
 
-const portfolioData = {
-	nav: ['Paweł Stasiewicz', 'About Me', 'Projects', 'Contact', 'IMG!!!'],
+export const portfolioData = {
+	nav: ['Pawel Stasiewicz', 'About Me', 'Projects', 'Contact', 'IMG!!!'],
 	header: [
 		"Hello, I'm",
-		'Paweł Stasiewicz',
+		'Pawel Stasiewicz',
 		'Junior Frontend Developer',
 		'IMG!!!',
 		'IMG!!!',
@@ -25,11 +25,11 @@ const portfolioData = {
 		'I have completed postgraduate studies in frontend development and I am currently seeking my first job in the IT industry. I have dedicated a lot of time to studying programming materials, which has turned it into my main hobby. I am willing to constantly expand my knowledge and learn new technologies.',
 	],
 	sectionProects: [
-		LuckyShrub,
+		// LuckyShrub,
 		'Lucky Shrub',
-		CarWebsite,
+		// CarWebsite,
 		'Car Website',
-		AgeCalculator,
+		// AgeCalculator,
 		'Age Calculator',
 		'GitHub',
 		'Live Demo',
@@ -37,11 +37,11 @@ const portfolioData = {
 	sectionContact: ['pst357357@gmail.com', 'LinkedIn'],
 };
 
-const portfolioColor = {
+export const portfolioColor = {
 	hexGray1: '#303030', // color for nav elements, h1 text in header, icon in header, section title, names of schools, text in about me, borders, names of projects, text in projects buttons, all elements in contact
 	hexGray2: '#4f4f4f', // color in header h2 elements, button text in header, education in about me
 	hexGray3: '#868686', // color date in education
 	hexWhite: '#fbfbfb', //background color
 };
 
-export default { portfolioColor, portfolioData };
+
