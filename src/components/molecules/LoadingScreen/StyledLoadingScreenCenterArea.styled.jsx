@@ -10,21 +10,38 @@ export const StyledLoadingScreenCenterArea = styled.div`
     background-color: transparent;
     border: 2px solid ${portfolioColor.hexGray1};
     border-radius: 21px;
-    animation: fadeInOut 5s ease-in-out forwards;
+    animation: fadeInOut 8s ease-in-out forwards;
 
     @keyframes fadeInOut {
-        0%{
-            opacity:0;
+      0% {
+            opacity: 0;
+            transform: translate(-50%, -50%) translateY(20px); 
         }
-        20%{
-            opacity:1;
+        10%, 90% {
+            opacity: 1;
+            transform: translate(-50%, -50%) translateY(-2px); 
         }
-        80%{
-            opacity:1;
+
+        20%, 80%{
+            transform: translate(-50%, -50%) translateY(0px);
         }
-        100%{
-            opacity:0;
+
+        30%, 70%{
+            transform: translate(-50%, -50%) translateY(-2px);
+        }
+
+        40%, 60%{
+            transform: translate(-50%, -50%) translateY(0px);
+        }
+
+        50%{
+            transform: translate(-50%, -50%) translateY(-2px);
+        }
+
+        100% {
+            opacity: 0;
         }  
     }
+
 `
 
