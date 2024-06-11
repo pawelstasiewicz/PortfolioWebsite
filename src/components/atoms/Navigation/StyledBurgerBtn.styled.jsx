@@ -8,7 +8,14 @@ export const StyledBurgerBtn = styled.button`
     border: none;
 
     i{
-        font-size: 18px;
+        font-size: 24px;
         color: ${portfolioColor.hexGray1}
     }
+
+    display: block;
+
+		@media (min-width: 768px) {
+			display: none;
+		}
+
 `
