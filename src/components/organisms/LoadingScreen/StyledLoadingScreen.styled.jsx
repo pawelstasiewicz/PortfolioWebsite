@@ -19,4 +19,5 @@ export const StyledLoadingScreen = styled.div`
 	background-color: ${portfolioColor.hexWhite};
 	animation: slideUp 1s forwards linear;
 	animation-delay: 10s;
+	z-index: 10;
 `;

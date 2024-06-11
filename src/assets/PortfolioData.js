@@ -1,9 +1,10 @@
 // import { AgeCalculator } from './img/AgeCalculator';
 // import { CarWebsite } from './img/CarWebsite';
 // import { LuckyShrub } from './img/LuckyShrub';
+import moon from './moon-regular.svg'
 
 export const portfolioData = {
-	nav: ['Pawel Stasiewicz', 'About Me', 'Projects', 'Contact', 'IMG!!!'],
+	nav: ['Pawel Stasiewicz', 'About Me', 'Projects', 'Contact', moon],
 	header: [
 		"Hello, I'm",
 		'Pawel Stasiewicz',
