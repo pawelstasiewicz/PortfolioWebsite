@@ -2,6 +2,10 @@
 // import { CarWebsite } from './img/CarWebsite';
 // import { LuckyShrub } from './img/LuckyShrub';
 import moon from './moon-regular.svg'
+import github from './github.svg'
+import linkedIn from './linkedin.svg'
+import profilePicture from './img/ProfilePicture.png'
+import envelopeRegular from './envelope-regular.svg'
 
 export const portfolioData = {
 	nav: ['Pawel Stasiewicz', 'About Me', 'Projects', 'Contact', moon],
@@ -9,10 +13,10 @@ export const portfolioData = {
 		"Hello, I'm",
 		'Pawel Stasiewicz',
 		'Junior Frontend Developer',
-		'IMG!!!',
-		'IMG!!!',
-		'IMG!!!',
-		'IMG!!!',
+		profilePicture,
+		github,
+		linkedIn,
+		envelopeRegular,
 		'Download CV',
 	],
 	sectionAbout: [
