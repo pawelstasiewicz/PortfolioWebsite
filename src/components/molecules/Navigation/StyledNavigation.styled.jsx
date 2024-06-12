@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { portfolioColor } from "../../../assets/PortfolioData";
 
-export const StyledNavigation = styled.div`
+export const StyledNavigation = styled.nav`
     background-color: ${portfolioColor.hexWhite};
     width: 100%;
     height: 60px;
