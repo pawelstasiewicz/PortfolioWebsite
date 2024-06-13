@@ -32,7 +32,7 @@ export const StyledNavigationList = styled.ul`
 		display: flex;
 		top: 10px;
 		background-color: transparent;
-		justify-content: space-between;
+		justify-content: space-evenly;
 
 		li {
 			color: ${portfolioColor.hexGray2};
