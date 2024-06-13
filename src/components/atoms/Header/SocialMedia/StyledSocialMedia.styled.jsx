@@ -20,4 +20,8 @@ export const StyledSocialMedia = styled.div`
         font-family: 'Inika';
     }
     
+    @media (min-width: 768px) {
+        justify-content: normal;
+    }
+
 `

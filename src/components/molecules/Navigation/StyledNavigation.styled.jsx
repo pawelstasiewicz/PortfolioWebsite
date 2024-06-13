@@ -16,4 +16,8 @@ export const StyledNavigation = styled.nav`
         color: ${portfolioColor.hexGray1};
         font-family: 'Nanum Myeongjo';
     }
+
+    @media (min-width: 768px) {
+        padding: 0 150px;
+    }
 `
