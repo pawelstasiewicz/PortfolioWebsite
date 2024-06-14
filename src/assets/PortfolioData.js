@@ -49,4 +49,9 @@ export const portfolioColor = {
 	hexWhite: '#fbfbfb', //background color
 };
 
+export const portfolioLinks = {
+	gitHubLink: 'https://github.com/pawelstasiewicz',
+	linkedInLink: 'https://www.linkedin.com/in/paweł-stasiewicz-10132b1b8/',
+	envelope: 'pst357357@gmail.com',
+}
 
