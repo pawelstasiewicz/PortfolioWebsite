@@ -1,16 +1,19 @@
 import styled from "styled-components";
+import { portfolioColor } from "../../../assets/PortfolioData";
 
 export const StyledHeaderText = styled.div`
     margin: 40px auto;
     line-height: 1.5;
 
     h1{
+        color:${portfolioColor.hexGray1};
         font-size: 24px;
         font-family: 'Nanum Myeongjo';
         text-transform: uppercase;
     }
 
     p{
+        color:${portfolioColor.hexGray2};
         font-family: 'Inika';
     }
 

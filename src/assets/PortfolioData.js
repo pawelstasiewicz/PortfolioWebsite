@@ -20,6 +20,7 @@ export const portfolioData = {
 		'Download CV',
 	],
 	sectionAbout: [
+		'About Me',
 		'Education',
 		'2022 - 2023',
 		'Postgraduate Studies - Collegium Da Vinci in Poznań',
@@ -30,6 +31,7 @@ export const portfolioData = {
 		'I have completed postgraduate studies in frontend development and I am currently seeking my first job in the IT industry. I have dedicated a lot of time to studying programming materials, which has turned it into my main hobby. I am willing to constantly expand my knowledge and learn new technologies.',
 	],
 	sectionProects: [
+		'Projects',
 		// LuckyShrub,
 		'Lucky Shrub',
 		// CarWebsite,
@@ -39,7 +41,7 @@ export const portfolioData = {
 		'GitHub',
 		'Live Demo',
 	],
-	sectionContact: ['pst357357@gmail.com', 'LinkedIn'],
+	sectionContact: ['Contact','pst357357@gmail.com', 'LinkedIn'],
 };
 
 export const portfolioColor = {
