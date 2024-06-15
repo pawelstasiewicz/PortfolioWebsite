@@ -2,6 +2,7 @@ import { StyledAboutMe } from './StyledAboutMe.styled';
 import TitleSection from '../../atoms/Sections/TitleSection';
 import { portfolioData } from '../../../assets/PortfolioData';
 import Education from '../../atoms/Sections/Education';
+import AboutMeText from '../../atoms/Sections/AboutMeText';
 
 const AboutMe = () => {
 	return (
@@ -18,6 +19,7 @@ const AboutMe = () => {
 				portfolioSchool={portfolioData.sectionAbout[6]}
 				portfolioFieldOfStudy={portfolioData.sectionAbout[7]}
 			/>
+			<AboutMeText aboutMeText={portfolioData.sectionAbout[8]}/>
 		</StyledAboutMe>
 	);
 };
