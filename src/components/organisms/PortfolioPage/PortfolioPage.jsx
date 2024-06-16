@@ -3,6 +3,7 @@ import Navigation from '../../molecules/Navigation/Navigation';
 import Header from '../../molecules/Header/Header';
 import AboutMe from '../../molecules/SectionAboutMe/AboutMe';
 import { useEffect, useState } from 'react';
+import Projects from '../../molecules/SectionProjects/Projects';
 
 const PortfolioPage = () => {
 
@@ -22,6 +23,7 @@ const PortfolioPage = () => {
 			<Navigation />
 			<Header/>
 			<AboutMe/>
+			<Projects/>
 		</StyledPortfolioPage>
 	);
 };

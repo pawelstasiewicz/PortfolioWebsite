@@ -1,6 +1,6 @@
-// import { AgeCalculator } from './img/AgeCalculator';
-// import { CarWebsite } from './img/CarWebsite';
-// import { LuckyShrub } from './img/LuckyShrub';
+import AgeCalculator  from './img/AgeCalculator.png';
+import CarWebsite from './img/CarWebsite.png';
+import LuckyShrub from './img/LuckyShrub.png';
 import moon from './moon-regular.svg'
 import github from './github.svg'
 import linkedIn from './linkedin.svg'
@@ -30,16 +30,24 @@ export const portfolioData = {
 		'National Security course of study',
 		'I have completed postgraduate studies in frontend development and I am currently seeking my first job in the IT industry. I have dedicated a lot of time to studying programming materials, which has turned it into my main hobby. I am willing to constantly expand my knowledge and learn new technologies.',
 	],
-	sectionProects: [
+	sectionProjects: [
 		'Projects',
-		// LuckyShrub,
+		LuckyShrub,
 		'Lucky Shrub',
-		// CarWebsite,
+		CarWebsite,
 		'Car Website',
-		// AgeCalculator,
+		AgeCalculator,
 		'Age Calculator',
 		'GitHub',
 		'Live Demo',
+		{
+			LuckyShrubGit:'https://github.com/pawelstasiewicz/LuckyShrub',
+			LuckyShrubDemo:'https://66367ba4c262822936e888aa--scintillating-beijinho-3efb1a.netlify.app',
+			CarWebsiteGit:'https://github.com/pawelstasiewicz/car_website',
+			CarWebsiteDemo:'https://fascinating-conkies-d52cf7.netlify.app',
+			AgeCalculatorGit:'https://github.com/pawelstasiewicz/age_calculator_app_hub',
+			AgeCalculatorDemo:'https://glittering-gnome-c0ab60.netlify.app'
+		}
 	],
 	sectionContact: ['Contact','pst357357@gmail.com', 'LinkedIn'],
 };
