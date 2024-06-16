@@ -7,4 +7,9 @@ export const StyledAboutMeText = styled.div`
     width: 70%;
     margin: 60px auto;
     text-align: justify;
+
+    @media (min-width: 1024px) {
+        width: 40%; 
+        padding: 0 30px;
+    }
 `
