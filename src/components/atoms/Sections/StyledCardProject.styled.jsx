@@ -2,14 +2,14 @@ import styled from "styled-components";
 import { portfolioColor } from "../../../assets/PortfolioData";
 
 export const StyledCadrProject = styled.div`
-    width: 70%;
+    width: 230px;
     border: 1px solid ${portfolioColor.hexGray1};
     border-radius: 21px;
     margin: 60px auto;
     text-align: center;
 
     img{
-        width: 118px;
+        width: 130px;
         height: 142px;
         border-radius: 15px; 
         margin: 20px 30px;

@@ -7,10 +7,10 @@ const CardProject = (props) => {
         <p>{props.projectName}</p>
         <div>
             <button>
-                <a href={props.githubLink}>{props.githubText}</a>
+                <a href={props.githubLink} target="_blank">{props.githubText}</a>
             </button>
             <button>
-                <a href={props.demoLink}>{props.livedemoText}</a>
+                <a href={props.demoLink} target="_blank">{props.livedemoText}</a>
             </button>
         </div>
     </StyledCadrProject>
