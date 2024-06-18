@@ -4,6 +4,7 @@ import Header from '../../molecules/Header/Header';
 import AboutMe from '../../molecules/SectionAboutMe/AboutMe';
 import { useEffect, useState } from 'react';
 import Projects from '../../molecules/SectionProjects/Projects';
+import Contact from '../../molecules/SectionContact/Contact';
 
 const PortfolioPage = () => {
 
@@ -24,6 +25,7 @@ const PortfolioPage = () => {
 			<Header/>
 			<AboutMe/>
 			<Projects/>
+			<Contact/>
 		</StyledPortfolioPage>
 	);
 };
