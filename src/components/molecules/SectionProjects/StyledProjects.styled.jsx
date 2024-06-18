@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledProjects = styled.section`
     position: relative;
-    top: 100px;
+    top: 200px;
 
      @media (min-width: 768px) {
      .gridModify{
