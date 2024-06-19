@@ -2,11 +2,11 @@ import { StyledHeader } from "./StyledHeader.styled"
 import ProfilePicture from "../../atoms/Header/ProfilePicture"
 import HeaderText from "../../atoms/Header/HeaderText"
 
-const Header = () => {
+const Header = ({color}) => {
   return (
     <StyledHeader>
         <ProfilePicture/>
-        <HeaderText/>
+        <HeaderText color={color}/>
     </StyledHeader>
   )
 }

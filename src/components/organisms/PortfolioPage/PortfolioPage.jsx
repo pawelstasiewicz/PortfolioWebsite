@@ -5,10 +5,12 @@ import AboutMe from '../../molecules/SectionAboutMe/AboutMe';
 import { useEffect, useState } from 'react';
 import Projects from '../../molecules/SectionProjects/Projects';
 import Contact from '../../molecules/SectionContact/Contact';
+import { portfolioColor } from '../../../assets/PortfolioData';
 
 const PortfolioPage = () => {
 
 	const [isBlocked, setIsBlocked] = useState(true)
+	const [color, setColor] = useState(true)
 
 	useEffect(() => {
 		const timer = setTimeout(() =>{
@@ -17,12 +19,15 @@ const PortfolioPage = () => {
 		
 		return () => clearTimeout(timer)
 	}, [10000])
-	
+
+	const handleMoonClicked = () =>{
+		setColor(prevState => !prevState)
+	}
 
 	return (
-		<StyledPortfolioPage >
-			<Navigation />
-			<Header/>
+		<StyledPortfolioPage backgroundcolor={color ? portfolioColor.hexWhite : portfolioColor.DarkMode} >
+			<Navigation onMoonClick={handleMoonClicked} color={color}/>
+			<Header color={color}/>
 			<AboutMe/>
 			<Projects/>
 			<Contact/>

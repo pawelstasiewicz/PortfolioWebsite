@@ -9,7 +9,7 @@ export const StyledBurgerBtn = styled.button`
 
     i{
         font-size: 24px;
-        color: ${portfolioColor.hexGray1}
+        color: ${(props) => props.fontcolor};
     }
 
     display: block;

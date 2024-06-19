@@ -35,7 +35,7 @@ export const StyledNavigationList = styled.ul`
 		justify-content: space-evenly;
 
 		li {
-			color: ${portfolioColor.hexGray2};
+			color: ${(props) => props.fontcolor};
 		}
 
 		img {
