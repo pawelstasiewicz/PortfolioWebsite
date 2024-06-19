@@ -2,13 +2,14 @@ import AgeCalculator  from './img/AgeCalculator.png';
 import CarWebsite from './img/CarWebsite.png';
 import LuckyShrub from './img/LuckyShrub.png';
 import moon from './moon-regular.svg'
+import moonWhite from './moon-regular-white.svg'
 import github from './github.svg'
 import linkedIn from './linkedin.svg'
 import profilePicture from './img/ProfilePicture.png'
 import envelopeRegular from './envelope-regular.svg'
 
 export const portfolioData = {
-	nav: ['Pawel Stasiewicz', 'About Me', 'Projects', 'Contact', moon],
+	nav: ['Pawel Stasiewicz', 'About Me', 'Projects', 'Contact', [moon, moonWhite]],
 	header: [
 		"Hello, I'm",
 		'Pawel Stasiewicz',
@@ -57,6 +58,7 @@ export const portfolioColor = {
 	hexGray2: '#4f4f4f', // color in header h2 elements, button text in header, education in about me
 	hexGray3: '#868686', // color date in education
 	hexWhite: '#fbfbfb', //background color
+	DarkMode: '#121212',
 };
 
 export const portfolioLinks = {

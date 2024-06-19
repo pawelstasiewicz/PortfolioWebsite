@@ -7,7 +7,7 @@ export const StyledContactBox = styled.div`
     border: 1px solid ${portfolioColor.hexGray1};
     border-radius: 21px;
     width: 230px;
-    margin: 50px auto;
+    margin: 150px auto;
     height: 100px;
     display: flex;
     flex-direction: column;

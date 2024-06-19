@@ -3,8 +3,10 @@ import { portfolioData } from '../../../assets/PortfolioData';
 import NavigationList from '../../atoms/Navigation/NavigationList';
 import BurgerBtn from '../../atoms/Navigation/BurgerBtn';
 import { useEffect, useState } from 'react';
+import { portfolioColor } from '../../../assets/PortfolioData';
+import { StyledH1 } from './StyledH1.styled';
 
-const Navigation = () => {
+const Navigation = ({onMoonClick, color}) => {
 	const navigationData = portfolioData.nav;
 	const shiftedElements = [...navigationData];
 	shiftedElements.shift();
@@ -29,11 +31,14 @@ const Navigation = () => {
 		setNavListAppear(!navListAppear);
 	}
 
+
+	
+
 	return (
-		<StyledNavigation>
-			<h1>{navigationData[0]}</h1>
-			<BurgerBtn onClick={handleClick} />
-			{navListAppear && <NavigationList navigationData={shiftedElements} />}
+		<StyledNavigation backgroundcolor={color ? portfolioColor.hexWhite : portfolioColor.DarkMode}>
+			<StyledH1 fontcolor={color ? portfolioColor.hexGray1 : portfolioColor.hexWhite}>{navigationData[0]}</StyledH1>
+			<BurgerBtn onClick={handleClick} color={color}/>
+			{navListAppear && <NavigationList onMoonClick={onMoonClick} navigationData={shiftedElements} color={color}/>}
 		</StyledNavigation>
 	);
 };
