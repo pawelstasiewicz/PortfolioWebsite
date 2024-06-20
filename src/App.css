@@ -1,20 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-html, body{
-    background-color:#fbfbfb;
-    animation: hideScroll 10s;
-  }
-  
+html,
+body {
+  animation: hideScroll 10s;
+}
 
 @keyframes hideScroll {
-    0%, 100% {
-      overflow: auto;
-    }
-    1%, 99% {
-      overflow: hidden;
-    }
-  }
+	0%,
+	100% {
+		overflow: auto;
+	}
+	1%,
+	99% {
+		overflow: hidden;
+	}
+}

@@ -22,7 +22,7 @@ const HeaderText = ({color}) => {
 			<StyledPHeader fontcolor={
 					color ? portfolioColor.hexGray2 : portfolioColor.hexWhite
 				}>{portfolioData.header[2]}</StyledPHeader>
-			<SocialMedia />
+			<SocialMedia color={color}/>
 		</StyledHeaderText>
 	);
 };

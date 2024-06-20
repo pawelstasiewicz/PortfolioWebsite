@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledContact = styled.section`
-    position: relative;
-    top: 300px;
-    height: 500px;
-`
+	background-color: ${(props) => props.fontcolor};
+	position: relative;
+	top: 300px;
+	height: 500px;
+`;

@@ -3,7 +3,7 @@ import { portfolioColor } from "../../../assets/PortfolioData";
 
 export const StyledCadrProject = styled.div`
     width: 230px;
-    border: 1px solid ${portfolioColor.hexGray1};
+    border: 1px solid ${(props) => props.fontcolor};
     border-radius: 21px;
     margin: 60px auto;
     text-align: center;
@@ -16,6 +16,7 @@ export const StyledCadrProject = styled.div`
     }
 
     p{
+        color:${(props) => props.fontcolor};
         font-family: 'Inika'
     }
 
@@ -24,14 +25,14 @@ export const StyledCadrProject = styled.div`
         margin: 20px 0;
 
         button{
-            border: 1px solid ${portfolioColor.hexGray1};
+            border: 1px solid ${(props) => props.fontcolor};
             border-radius: 21px;
             height: 25px;
             margin: 5px;
             background-color: transparent;
 
             a{
-                color: ${portfolioColor.hexGray1};
+                color: ${(props) => props.fontcolor};
                 text-decoration: none;
                 margin: 25px 15px;
                 font-family: 'Inika';

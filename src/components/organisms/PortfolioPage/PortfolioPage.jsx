@@ -28,9 +28,9 @@ const PortfolioPage = () => {
 		<StyledPortfolioPage backgroundcolor={color ? portfolioColor.hexWhite : portfolioColor.DarkMode} >
 			<Navigation onMoonClick={handleMoonClicked} color={color}/>
 			<Header color={color}/>
-			<AboutMe/>
-			<Projects/>
-			<Contact/>
+			<AboutMe color={color}/>
+			<Projects color={color}/>
+			<Contact color={color}/>
 		</StyledPortfolioPage>
 	);
 };

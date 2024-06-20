@@ -14,7 +14,7 @@ export const StyledEducation = styled.div`
 
    div{
         p{
-            color: ${portfolioColor.hexGray1};
+            color: ${(props) => props.fontcolor};
             margin: 10px 50px;
             font-family: 'Inika';
         }

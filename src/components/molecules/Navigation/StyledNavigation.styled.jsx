@@ -8,7 +8,9 @@ export const StyledNavigation = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin: 10px 0;
+    position: relative;
+    top: -10px;
 
     @media (min-width: 768px) {
         padding: 0 150px;

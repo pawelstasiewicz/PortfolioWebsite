@@ -1,8 +1,11 @@
 import { StyledEducation } from "./StyledEducation.styled"
+import { portfolioColor } from "../../../assets/PortfolioData"
 
 const Education = (props) => {
   return (
-    <StyledEducation>
+    <StyledEducation fontcolor={
+      props.color ? portfolioColor.hexGray2 : portfolioColor.hexWhite
+    }>
         <p>{props.portfolioDate}</p>
         <div>
             <p>{props.portfolioSchool}</p>

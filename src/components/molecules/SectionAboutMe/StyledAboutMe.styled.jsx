@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { portfolioColor } from "../../../assets/PortfolioData";
 
 export const StyledAboutMe = styled.section`
     position: relative;
@@ -9,7 +8,6 @@ export const StyledAboutMe = styled.section`
     justify-content: center;
      
     p{
-        color: ${portfolioColor.hexGray1};
         margin: 30px 50px;
         font-family: 'Inika';
     }
