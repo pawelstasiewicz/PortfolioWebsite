@@ -1,8 +1,10 @@
 import { StyledCadrProject } from "./StyledCardProject.styled"
+import { portfolioColor } from "../../../assets/PortfolioData"
 
 const CardProject = (props) => {
   return (
-    <StyledCadrProject>
+    <StyledCadrProject fontcolor={
+      props.color ? portfolioColor.hexGray2 : portfolioColor.hexWhite}>
         <img src={props.projectImage} alt="Project Image" />
         <p>{props.projectName}</p>
         <div>

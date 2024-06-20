@@ -1,13 +1,16 @@
 import { portfolioData } from "../../../../assets/PortfolioData"
 import { StyledSocialMedia } from "./StyledSocialMedia.styled"
 import { portfolioLinks } from "../../../../assets/PortfolioData"
+import { portfolioColor } from "../../../../assets/PortfolioData"
 
-const SocialMedia = () => {
+const SocialMedia = ({color}) => {
 
   const mailToLink = `mailto:${portfolioLinks.envelope}`
 
   return (
-    <StyledSocialMedia>
+    <StyledSocialMedia fontcolor={
+      color ? portfolioColor.hexGray2 : portfolioColor.hexWhite
+    } backgroundradius={color ? '' : portfolioColor.hexWhite}>
         <a href={portfolioLinks.gitHubLink} target="_blank">
           <img src={portfolioData.header[4]} alt="Github" />
         </a>

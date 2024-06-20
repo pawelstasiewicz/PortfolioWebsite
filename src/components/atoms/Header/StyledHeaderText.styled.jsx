@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { portfolioColor } from "../../../assets/PortfolioData";
 
 export const StyledHeaderText = styled.div`
     margin: 40px auto;

@@ -10,14 +10,17 @@ export const StyledSocialMedia = styled.div`
         margin-right: 10px;
         width: 30px;
         height: 30px;
-        color: ${portfolioColor.hexGray1}
+        background-color: ${(props) => props.backgroundradius};
+        backdrop-filter:blur(50px);
+        border-radius: 5px;
+        color: ${(props) => props.fontcolor};
     }
 
     button{
         width: 30px;
         background-color: transparent;
         border-radius: 20px;
-        border: 2px solid ${portfolioColor.hexGray1};
+        border: 2px solid ${(props) => props.fontcolor};
         font-family: 'Inika';
     }
     

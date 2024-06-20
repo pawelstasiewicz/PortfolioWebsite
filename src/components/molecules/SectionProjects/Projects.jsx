@@ -3,10 +3,10 @@ import TitleSection from '../../atoms/Sections/TitleSection';
 import { portfolioData } from '../../../assets/PortfolioData';
 import CardProject from '../../atoms/Sections/CardProject';
 
-const Projects = () => {
+const Projects = ({color}) => {
 	return (
-		<StyledProjects>
-			<TitleSection portfolioData={portfolioData.sectionProjects[0]} />
+		<StyledProjects id="section1">
+			<TitleSection portfolioData={portfolioData.sectionProjects[0]} color={color}/>
 			<div className='gridModify'>
 				<CardProject
 					projectImage={portfolioData.sectionProjects[1]}
@@ -15,6 +15,7 @@ const Projects = () => {
 					livedemoText={portfolioData.sectionProjects[8]}
 					githubLink={portfolioData.sectionProjects[9].LuckyShrubGit}
 					demoLink={portfolioData.sectionProjects[9].LuckyShrubDemo}
+					color={color}
 				/>
 				<CardProject
 					projectImage={portfolioData.sectionProjects[3]}
@@ -23,6 +24,7 @@ const Projects = () => {
 					livedemoText={portfolioData.sectionProjects[8]}
 					githubLink={portfolioData.sectionProjects[9].CarWebsiteGit}
 					demoLink={portfolioData.sectionProjects[9].CarWebsiteDemo}
+					color={color}
 				/>
 				<CardProject
 					projectImage={portfolioData.sectionProjects[5]}
@@ -31,6 +33,7 @@ const Projects = () => {
 					livedemoText={portfolioData.sectionProjects[8]}
 					githubLink={portfolioData.sectionProjects[9].AgeCalculatorGit}
 					demoLink={portfolioData.sectionProjects[9].AgeCalculatorDemo}
+					color={color}
 				/>
 			</div>
 		</StyledProjects>

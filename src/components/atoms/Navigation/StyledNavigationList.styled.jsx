@@ -21,11 +21,13 @@ export const StyledNavigationList = styled.ul`
 		margin: 20px 0;
 		color: ${portfolioColor.hexWhite};
 		font-family: 'Inika';
+		cursor: pointer;
 	}
 
 	img {
 		width: 20px;
 		margin: 0 auto 10px auto;
+		cursor: pointer;
 	}
 
 	@media (min-width: 768px) {
