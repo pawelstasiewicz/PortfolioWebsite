@@ -3,9 +3,18 @@ import TitleSection from '../../atoms/Sections/TitleSection';
 import { portfolioData } from '../../../assets/PortfolioData';
 import CardProject from '../../atoms/Sections/CardProject';
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
+
 const Projects = ({color}) => {
+
+	useEffect(() =>{
+		AOS.init({duration:"1000"})
+	})
+
 	return (
-		<StyledProjects id="section1">
+		<StyledProjects id="section1" data-aos="fade-up">
 			<TitleSection portfolioData={portfolioData.sectionProjects[0]} color={color}/>
 			<div className='gridModify'>
 				<CardProject

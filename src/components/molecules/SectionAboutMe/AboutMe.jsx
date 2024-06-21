@@ -5,10 +5,18 @@ import Education from '../../atoms/Sections/Education';
 import AboutMeText from '../../atoms/Sections/AboutMeText';
 import { StyledPHeader } from '../../atoms/Header/StyledPHeader.styled';
 import { portfolioColor } from '../../../assets/PortfolioData';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 const AboutMe = ({ color }) => {
+
+	useEffect(() =>{
+		AOS.init({duration:"1000"})
+	})
+
 	return (
-		<StyledAboutMe id="section0">
+		<StyledAboutMe id="section0" data-aos="fade-up">
 			<TitleSection
 				portfolioData={portfolioData.sectionAbout[0]}
 				color={color}

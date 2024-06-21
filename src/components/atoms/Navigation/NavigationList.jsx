@@ -26,7 +26,7 @@ const NavigationList = (props) => {
 								to={`section${index}`}
 								spy={true}
 								smooth={true}
-								offset={-50}
+								offset={-200}
 								duration={500}
 							>
 								{element}
