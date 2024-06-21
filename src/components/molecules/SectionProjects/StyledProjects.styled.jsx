@@ -18,5 +18,4 @@ export const StyledProjects = styled.section`
     @media (min-width: 1445px) {
        margin: 0 300px;
     }
-    }
 `

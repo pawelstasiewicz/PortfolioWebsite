@@ -1,11 +1,11 @@
-import AgeCalculator  from './img/AgeCalculator.png';
-import CarWebsite from './img/CarWebsite.png';
-import LuckyShrub from './img/LuckyShrub.png';
+import AgeCalculator  from './img/AgeCalculator.webp';
+import CarWebsite from './img/CarWebsite.webp';
+import LuckyShrub from './img/LuckyShrub.webp';
 import moon from './moon-regular.svg'
 import moonWhite from './moon-regular-white.svg'
 import github from './github.svg'
 import linkedIn from './linkedin.svg'
-import profilePicture from './img/ProfilePicture.png'
+import profilePicture from './img/ProfilePicture.webp'
 import envelopeRegular from './envelope-regular.svg'
 
 export const portfolioData = {
