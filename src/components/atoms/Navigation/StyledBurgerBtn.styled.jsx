@@ -6,6 +6,7 @@ export const StyledBurgerBtn = styled.button`
     background-color: transparent;
     padding: 10px;
     border: none;
+    cursor: pointer;
 
     i{
         font-size: 24px;

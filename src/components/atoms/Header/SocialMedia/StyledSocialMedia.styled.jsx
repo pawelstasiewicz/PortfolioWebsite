@@ -22,6 +22,7 @@ export const StyledSocialMedia = styled.div`
         border-radius: 20px;
         border: 2px solid ${(props) => props.fontcolor};
         font-family: 'Inika';
+        cursor: pointer;
     }
     
     @media (min-width: 768px) {
