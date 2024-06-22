@@ -20,7 +20,9 @@ const SocialMedia = ({color}) => {
         <a href={mailToLink} >
           <img src={portfolioData.header[6]} alt="Envelope" />
         </a>
-        <button>CV</button>
+        <a href="https://drive.google.com/file/d/1qI3HsDJHjuNpvBZLZaW01zV-xkQ-lj_u/view?usp=share_link">
+          <button>CV</button>
+        </a>
         
     </StyledSocialMedia>
   )
