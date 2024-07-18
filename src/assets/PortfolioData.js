@@ -7,6 +7,7 @@ import github from './github.svg'
 import linkedIn from './linkedin.svg'
 import profilePicture from './img/ProfilePicture.webp'
 import envelopeRegular from './envelope-regular.svg'
+import Calculator from './img/Calculator.webp'
 
 export const portfolioData = {
 	nav: ['Pawel Stasiewicz', 'About Me', 'Projects', 'Contact', [moon, moonWhite]],
@@ -37,6 +38,8 @@ export const portfolioData = {
 		'Lucky Shrub',
 		CarWebsite,
 		'Car Website',
+		Calculator,
+		'Calculator',
 		AgeCalculator,
 		'Age Calculator',
 		'GitHub',
@@ -46,8 +49,10 @@ export const portfolioData = {
 			LuckyShrubDemo:'https://66367ba4c262822936e888aa--scintillating-beijinho-3efb1a.netlify.app',
 			CarWebsiteGit:'https://github.com/pawelstasiewicz/car_website',
 			CarWebsiteDemo:'https://fascinating-conkies-d52cf7.netlify.app',
+			CalculatorGit: 'https://github.com/pawelstasiewicz/Calculator',
+			CalculatorDemo: 'https://pawelstasiewicz-calculator.netlify.app',
 			AgeCalculatorGit:'https://github.com/pawelstasiewicz/age_calculator_app_hub',
-			AgeCalculatorDemo:'https://glittering-gnome-c0ab60.netlify.app'
+			AgeCalculatorDemo:'https://pawelstasiewicz-agecalculator.netlify.app'
 		}
 	],
 	sectionContact: ['Contact','pst357357@gmail.com', 'LinkedIn'],
